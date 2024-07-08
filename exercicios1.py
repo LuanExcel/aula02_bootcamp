@@ -21,3 +21,10 @@ print(area_circulo_formatada)
 #novo
 print(f"{area_circulo:.2f}" )
 
+data_usuario = input('Insira uma data no formato dd/mm/aaaa: ')
+lista_dia_mes_ano = data_usuario.split("/")
+print(f"O elemento 1 da lista é o:  {lista_dia_mes_ano[0]}")
+print(f"O elemento 1 da lista é o:  {lista_dia_mes_ano[1]}")
+print(f"O elemento 1 da lista é o:  {lista_dia_mes_ano[2]}")
+
+
